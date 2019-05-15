@@ -1,2 +1,2 @@
 # myRepository
-SpringBoot练习
+SpringBoot与Mybatis整合单元测试
