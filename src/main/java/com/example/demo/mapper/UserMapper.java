@@ -15,7 +15,7 @@ public interface UserMapper {
 
     @Select("select * from user where username like #{username} and password like #{password}")
     User get(@Param("username") String username, @Param("password") String password);
-    //参数多余一个时，必须加上@Param，不然EL表达式无效
+    //参数多于一个时，必须加上@Param，不然EL表达式无效
 
 
 }
